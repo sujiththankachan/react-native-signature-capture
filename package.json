@@ -1,7 +1,7 @@
 {
   "name": "react-native-signature-capture",
-  "version": "0.4.10",
-  "description": "Lets users sign their signatures",
+  "version": "0.4.11",
+  "description": "Let the users sign their signatures",
   "main": "SignatureCapture.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,7 +19,7 @@
   "peerDependencies": {
     "react-native": ">=0.47"
   },
-  "author": "RepairShopr",
+  "author": "RepairShopr->Sujith Thankachan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/RepairShopr/react-native-signature-capture/issues"
