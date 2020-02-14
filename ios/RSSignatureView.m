@@ -227,7 +227,7 @@
 }
 
 - (void)updateStrokeColor:(UIColor *) color {
-    [sign setStrokeColor:color];
+    [self.sign setStrokeColor:color];
 }
 
 @end
