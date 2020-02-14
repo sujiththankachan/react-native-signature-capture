@@ -12,4 +12,5 @@
 -(void) onClearButtonPressed;
 -(void) saveImage;
 -(void) erase;
+- (void)updateStrokeColor:(UIColor *) color;
 @end

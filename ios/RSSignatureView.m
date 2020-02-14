@@ -226,4 +226,8 @@
 	[self.sign erase];
 }
 
+- (void)updateStrokeColor:(UIColor *) color {
+    [sign setStrokeColor:color];
+}
+
 @end

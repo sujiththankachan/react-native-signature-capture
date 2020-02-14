@@ -43,6 +43,12 @@ RCT_EXPORT_METHOD(resetImage:(nonnull NSNumber *)reactTag) {
 	});
 }
 
+RCT_EXPORT_METHOD(updateStrokeColor:(nonnull UIColor *)color) {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self.signView updateStrokeColor: color];
+    });
+}
+
 -(void) publishSaveImageEvent:(NSString *) aTempPath withEncoded: (NSString *) aEncoded {
 	[self.bridge.eventDispatcher
 	 sendDeviceEventWithName:@"onSaveEvent"
